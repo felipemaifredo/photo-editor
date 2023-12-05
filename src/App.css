@@ -23,6 +23,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+  padding: 15px;
 }
 
 .bts-container {
@@ -54,12 +56,13 @@
   width: 600px;
   height: 500px;
   padding: 5px;
+  overflow: hidden;
 }
 
 .image-container img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .range-inputs-container {
@@ -69,5 +72,14 @@
 }
 
 .range-inputs-box {
-  width: 80%;
+  width: 125%;
+}
+
+.range-inputs-box p {
+  text-align: center;
+  color: white;
+}
+
+.range-inputs-box input {
+  width: 100%;
 }
